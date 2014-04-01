@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="style.css" /> 
+<title>Trio - A Flexable Metasearch engine </title>
+</head>
+
+
+<body>
+	<div id ="wrapper">
+	
+	<div id ="banner">
+		<h1>Trio</h1>
+	</div>
+	
+	<div class="box"></div>
+	
+	<div id="searchbox">
+		<form action="cgi/forwarding.cgi" method="get">
+			<div id = search_params>
+			Enter Query: 	<input type="text" name="query">
+			</div>
+			<br>
+			<div class=search_filters>
+			Aggregation:	<input type="radio" name="Agg" checked="yes" value="on">On
+										<input type="radio" name="Agg" value="off">Off <br>
+			</div>
+			<div class=search_filters>
+			Expand Query:	<input type="radio" name="epan" value="on">On
+										<input type="radio" name="epan" checked="yes" value="off">Off
+			</div>
+			<div class=search_filters>						
+			Expand factor:<select name ="nterms">
+											<option value=1>1</option>
+											<option value=2>2</option>
+											<option value=3>3</option>
+											<option value=4>4</option>
+											<option value=5>5</option>
+										</select>
+													<br>
+				
+		 </div>
+			<div id = submit_button><input type="submit" value="submit" /></div>	
+		</form>
+	</div>
+	
+	<div class="box"></div>
+	
+	</div>
+
+</body>
+
+</html>

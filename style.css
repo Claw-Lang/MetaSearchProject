@@ -1,0 +1,72 @@
+body
+{
+font: 21px sans-serif;
+padding: 0;
+margin: 0;
+background: #555753
+}
+
+h1
+{
+text-align:center;
+color:#FFF;
+}
+
+#wrapper
+{
+width:100%;
+height:100%;
+margin: 0;
+}
+
+#banner
+{
+width:100%;
+height: 200px;
+margin:0;
+}
+
+.box
+{
+width:15%;
+height:150px;
+padding:0;
+margin:0;
+float:left;
+}
+
+#searchbox
+{
+background:#CCC;
+width:64%;
+height: 160px;
+padding:2%;
+margin: 0;
+float:left
+}
+
+input[type="text"]{
+width:100%;
+}
+
+#search_param{
+width=50%;
+height=100px;
+padding-left:25%;
+padding-right:25%;
+}
+
+.search_filters{
+width=60%;
+height=50px;
+font: 16px sans-serif;
+padding-top: 3px;
+padding-left:20%;
+padding-right:20%;
+}
+
+#submit_button{
+width=20%;
+padding-left:40%;
+padding-right:40%;
+}

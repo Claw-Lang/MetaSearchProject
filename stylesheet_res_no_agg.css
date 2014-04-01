@@ -1,0 +1,84 @@
+body
+{
+font: 21px sans-serif;
+padding: 0;
+margin: 0;
+background: #555753
+}
+
+#wrapper
+{
+width:100%;
+height:auto;
+margin: 0;
+padding: 0;
+}
+
+h1
+{
+text-align:center;
+color:#FFF;
+padding-top:5px;
+}
+
+#search
+{
+background:#CCC;
+width:60%;
+height: 8%;
+margin:0;
+padding-left: 20%;
+padding-right: 20%;
+padding-top:2%;
+padding-bottom:2%;
+float:left;
+}
+
+.search_param{
+width=60%;
+height=50px;
+}
+
+.search_filters{
+width=60%;
+height=50px;
+font: 16px sans-serif;
+padding-top: 3px;
+}
+
+#res_wrap{
+width:100%;
+}
+
+.listpara{
+font: 15px sans-serif;
+}
+#goo{
+width: 80%;
+height: auto;
+margin:0;
+padding-left:10%;
+padding-right:10%;
+float:left;
+background:#eee;
+}
+
+#bing{
+width: 80%;
+height: auto;
+margin:0;
+padding-left:10%;
+padding-right:10%;
+float:left;
+background:#ddd;
+}
+
+#blek{
+width: 80%;
+height: auto;
+margin:0;
+padding-left:10%;
+padding-right:10%;
+float:left;
+background:#eee;
+}
